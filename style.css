@@ -1,0 +1,75 @@
+body {
+    background-image: url(Immagini/background.jpg);
+    background-size: 1920px 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 20px;
+    padding: 5%;
+}
+
+header, nav {
+    text-align: center;
+}
+
+#logo {
+    width: 230px;
+}
+
+h1 {
+    color: rgba(0, 255, 0, 0.795);
+    font-size: 35px;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+
+nav {
+    background-color: rgb(9, 255, 0);
+    border: 0px;
+    margin-bottom: 3.5%;
+    padding: 10px;
+}
+
+main {
+    color: white;
+}
+
+div {
+    margin-bottom: 3%;
+}
+
+section {
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 0.5%;
+}
+
+p {
+    margin: 0.5%;
+}
+
+#stato-carica1 {
+    background-color:rgb(255, 196, 0);
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+}
+
+#stato-carica2 {
+    background-color:green;
+    border-radius: 5px;
+    width: 500px;
+    height: 25px;
+}
+
+#stato-carica3 {
+    background-color:red;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
